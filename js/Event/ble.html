@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="btn">클릭</div>
+  <hr>
+  <hr>
+  <hr>
+  <hr>
+  <div id="roundRec">이벤트 캡쳐</div>
+  <script>
+    // 이벤트버블링
+    document.querySelector('body').addEventListener('click', event => {
+      console.log('이벤트버블링');
+    });
+
+    // 이벤트캡쳐링
+    // document.querySelector('body').addEventListener('click', event =>{
+    //   console.log('이벤트캡쳐링');
+    // });
+
+  </script>
+  
+</body>
+</html>

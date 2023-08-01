@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- 타입 모듈해놓으면 타이틀 아래에 해놔도 돌아감 -->
+  <!-- <script type="module" src="./EventExample.js"></script> -->
+</head>
+<body>
+  <!--  클릭 이벤트 -->
+  <button>나를 클릭하세요!</button>
+  <!--  키 이벤트 -->
+  <input type="text">
+
+   <!-- 체인지 이벤트 -->
+   <!-- id는 디자인할때 ,name은 서버로 보낼때 무조건 써야하니까 name으로 접근하는게 좋음 -->
+  <form action="" name="frm">
+    <select name="search">
+      <option value="">전체검색</option>
+      <option value="id">아이디</option>
+      <option value="name">이름</option>
+    </select>
+  </form> 
+  
+    <!-- 포커스/블러 이벤트 -->
+    <label for="name">이름</label>
+    <input type="text" id="name" name="name">
+  
+    <!-- 디폴트 이벤트 해제 -->
+    <a href="https://www.daum.net">다음</a>
+    <a href="https://www.naver.com">네이버</a>
+
+
+  <script src="./EventExample4.js"></script>
+</body>
+</html>
